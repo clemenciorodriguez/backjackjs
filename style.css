@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=Smokum&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Smokum&display=swap');
+
+body {
+  background-image: url(https://media.istockphoto.com/id/1441015286/vector/poker-table-background-in-green-color.jpg?s=612x612&w=0&k=20&c=Ad_XUWWgtGBb4CgmaR-YSStbDxL03dpJ5u9Pmk0Y7Nw=);
+  background-size: 100vh;
+  font-family: "Smokum", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 6rem;
+}
+
+
+.nuevebox{
+  display: flex;
+  flex-direction: row;
+  border: 1px solid rgb(250, 250, 250);
+  height: 100vh;
+
+}
+
+.box1{
+  height: 100%;
+  width: 30%;
+  /* border: solid blue 2px; */
+  justify-content: space-between;
+  align-items: space-around;
+  position: relative;
+  top: 6rem;
+  margin-top: 5px;
+  margin-left: 8px;
+  padding:20px;
+  
+}
+.box2{
+  /* height: 100%;
+  width: 30%;
+  /* border: solid red 2px; */
+  /* justify-content: space-between;
+  align-items: space-around;
+  position: relative;
+  margin-top: 5px;
+  margin-left: 8px;
+  padding:20px; */
+  height: 15%;
+  width: 19%;
+  border: solid white 2px;
+  justify-content: space-between;
+  position: relative;
+  top: 2%;
+  left: 5%;
+  text-align: center ;
+  display: flex;
+  padding: 2%;
+  color: #efefef;
+  flex-direction: column;
+}
+
+.box3{
+    /* height: 15%; */
+    width: 19%;
+    /* border: solid white 2px; */
+    /* justify-content: space-between; */
+    position: relative;
+    top: 22%;
+    left: 5%;
+    text-align: center;
+    display: flex;
+    padding: 2%;
+    color: #efefef;
+    flex-direction: column;
+}
+.styleback{
+
+  background-image: url('https://img.freepik.com/free-vector/green-geometric-background-patricks-day-colors_24908-58471.jpg?w=360&t=st=1725741831~exp=1725742431~hmac=835e6088be9ffb2e1929dc65790e35d086893233b71a2cb8fc9713f2c00d27a5');
+  animation-name: card_slide;
+  animation-duration: 2s;
+
+}
+
+
+
+
+@keyframes card_slide {
+
+
+  75%  {  background-image: url('https://img.freepik.com/free-vector/green-geometric-background-patricks-day-colors_24908-58471.jpg?w=360&t=st=1725741831~exp=1725742431~hmac=835e6088be9ffb2e1929dc65790e35d086893233b71a2cb8fc9713f2c00d27a5');
+; left:0px; top:200px;}
+  100% {  background-image: url('https://img.freepik.com/free-vector/green-geometric-background-patricks-day-colors_24908-58471.jpg?w=360&t=st=1725741831~exp=1725742431~hmac=835e6088be9ffb2e1929dc65790e35d086893233b71a2cb8fc9713f2c00d27a5');
+; left:0px; top:0px;}
+}
+
+#cartp1a {animation-timing-function: linear;}
+#cartp1b {animation-timing-function: linear;}
+
+
+.cartp1a{
+  border:dashed 3px solid;
+  height:30%;
+  width: 98px;
+  border-radius: 5px;
+  position: relative;
+  background-color: #efefef;
+  transform: rotate(-10deg);
+  box-shadow: .5px 1px 1px .4px;
+  position: relative;
+
+  
+}
+.cartp1c{
+  border: dashed 3px solid;
+  height: 30%;
+  width: 98px;
+  border-radius: 5px;
+  position: relative;
+  background-color: #efefef;
+  transform: rotate(6deg);
+  box-shadow: .5px 1px 1px .4px;
+  position: relative;
+  bottom: 8rem;
+  
+}
+
+.cartp1b{
+  border:dashed 3px solid;
+  height:30%;
+  width: 98px;
+  border-radius: 5px;
+  position: relative;
+  bottom: 90px;
+  background-color: #efefef;
+  transform: rotate(-12deg);
+  box-shadow: .5px 1px 1px .4px;
+  position: relative;
+
+}
+.cartp2a{
+  border:dashed 3px solid;
+  height:30%;
+  width: 98px;
+  border-radius: 5px;
+  position: relative;
+  background-color: #efefef;
+  transform: rotate(-10deg);
+  box-shadow: .5px 1px 1px .4px;
+  position: relative;
+
+  
+}
+.cartp2c{
+  border: dashed 3px solid;
+  height: 30%;
+  width: 98px;
+  border-radius: 5px;
+  position: relative;
+  background-color: #efefef;
+  transform: rotate(6deg);
+  box-shadow: .5px 1px 1px .4px;
+  position: relative;
+  bottom: 8rem;
+  
+}
+
+.cartp2b{
+  border:dashed 3px solid;
+  height:30%;
+  width: 98px;
+  border-radius: 5px;
+  position: relative;
+  bottom: 90px;
+  background-color: #efefef;
+  transform: rotate(-12deg);
+  box-shadow: .5px 1px 1px .4px;
+  position: relative;
+
+}
+#textcard1a{
+  position: relative;
+  left:.4rem;
+
+}
+#simbolcard1a{
+  position: relative;
+  left:1.4rem;
+  top:2rem;
+  
+}
+#textcard1b{
+  position: relative;
+  left:.4rem;
+
+}
+#simbolcard1b{
+  position: relative;
+  left:1.4rem;
+  top:2rem;
+}
+
+
+
+
+
+
+
+#textcard2a{
+  position: relative;
+  left:-1.6rem;
+  color: initial;
+
+}
+#simbolcard2a{
+  position: relative;
+  left: -0.6rem;
+  top:2rem;
+  color: initial;
+  
+}
+#textcard2b{
+  position: relative;
+  left:-1.6rem;
+  color: initial;
+
+}
+
+#simbolcard2b{
+  position: relative;
+  left:-0.6rem;
+  top:2rem;
+  color: initial;
+}
+
+.cartp2c{
+  border: dashed 3px solid;
+  height: 30%;
+  width: 98px;
+  border-radius: 5px;
+  position: relative;
+  background-color: #efefef;
+  transform: rotate(6deg);
+  box-shadow: .5px 1px 1px .4px;
+  position: relative;
+  bottom: 8rem;
+  
+}
+
+
+#simbolcard2c{
+  position: relative;
+  left: -0.6rem;
+  top:2rem;
+  color: initial;
+  
+}
+#textcard2c{
+  position: relative;
+  left:-1.6rem;
+  color: initial;
+
+}
+
+
+
+
+
+
+
+
+
+button.abarajar {
+  display: flex;
+
+  left: 10rem;
+
+  width: auto;
+  background-color: #efefef;
+  border: none;
+  outline: seashell;
+  font-family: "Smokum", serif;
+}
+button.nueva {
+  display: flex;
+
+  left: 10rem;
+
+  width: auto;
+  background-color: #efefef;
+  border: none;
+  outline: seashell;
+  font-family: "Smokum", serif;
+}
+button.Double {
+  display: flex;
+
+  left: 10rem;
+
+  width: auto;
+  background-color: #efefef;
+  border: none;
+  outline: seashell;
+  font-family: "Smokum", serif;
+}
+button.Stake {
+  display: flex;
+  left: 10rem;
+  width: auto;
+  background-color: #efefef;
+  border: none;
+  outline: seashell;
+  font-family: "Smokum", serif;
+}
+
+
+.buttons {
+  display: flex;
+  gap: 0.5rem;
+  position: relative;
+  left: 1rem;
+  bottom: 7rem;
+  border-radius: 8px;
+}
+
